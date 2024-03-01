@@ -1,0 +1,25 @@
+﻿<Window x:Class="MuseoExhibicion.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MuseoExhibicion"
+        mc:Ignorable="d"
+        Title="Museo de exhibicion" Height="450" Width="800">
+    <DockPanel>
+        <StackPanel Background="LightCoral">
+            <TextBlock HorizontalAlignment="Center" FontFamily="Gill Sans MT"
+            FontSize="22" FontWeight="Black">Museo de exhibicion.</TextBlock>
+            <StackPanel>
+                <Label HorizontalAlignment="Left" Width="210" Margin="5" FontFamily="Gill Sans MT" FontSize="22" FontWeight="Black">
+                    Visitantes actuales:
+                </Label>
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="210" Text="{Binding VisitantesActuales}"></TextBox>
+                <Label FontFamily="Gill Sans MT" FontSize="22" FontWeight="Black" HorizontalAlignment="Left" Width="210">Visitantes totales:</Label>
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="210" Text="{Binding VisitantesActuales}"></TextBox>
+                <Label FontFamily="Gill Sans MT" FontSize="22" FontWeight="Black" HorizontalAlignment="Left" Width="210">Maximos visitantes:</Label>
+                <TextBox HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="210" Text="{Binding VisitantesActuales}"></TextBox>
+            </StackPanel>
+        </StackPanel>
+    </DockPanel>
+</Window>
